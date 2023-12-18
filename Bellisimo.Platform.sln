@@ -5,7 +5,9 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{39EBE662-FD1C-447D-8D0D-7F9C3C101F6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bellsimo.WebApi", "src\Bellsimo.WebApi\Bellsimo.WebApi.csproj", "{73768D19-58A7-42B3-B6F8-770348C3C278}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellsimo.WebApi", "src\Bellsimo.WebApi\Bellsimo.WebApi.csproj", "{73768D19-58A7-42B3-B6F8-770348C3C278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BellsimoDataAccessLayer", "src\BellsimoDataAccessLayer\BellsimoDataAccessLayer.csproj", "{02E5CB24-0E82-46F8-8EC0-0B403F277C67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +19,17 @@ Global
 		{73768D19-58A7-42B3-B6F8-770348C3C278}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73768D19-58A7-42B3-B6F8-770348C3C278}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73768D19-58A7-42B3-B6F8-770348C3C278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02E5CB24-0E82-46F8-8EC0-0B403F277C67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E5CB24-0E82-46F8-8EC0-0B403F277C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E5CB24-0E82-46F8-8EC0-0B403F277C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E5CB24-0E82-46F8-8EC0-0B403F277C67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{73768D19-58A7-42B3-B6F8-770348C3C278} = {39EBE662-FD1C-447D-8D0D-7F9C3C101F6F}
+		{02E5CB24-0E82-46F8-8EC0-0B403F277C67} = {39EBE662-FD1C-447D-8D0D-7F9C3C101F6F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A1FFD16E-8B82-44B3-8ADE-9E752F92F4BD}
