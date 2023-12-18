@@ -1,0 +1,6 @@
+@Bellsimo.WebApi_HostAddress = http://localhost:5008
+
+GET {{Bellsimo.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
