@@ -7,7 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{39EBE662-FD1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bellsimo.WebApi", "src\Bellsimo.WebApi\Bellsimo.WebApi.csproj", "{73768D19-58A7-42B3-B6F8-770348C3C278}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BellsimoDataAccessLayer", "src\BellsimoDataAccessLayer\BellsimoDataAccessLayer.csproj", "{02E5CB24-0E82-46F8-8EC0-0B403F277C67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BellsimoDataAccessLayer", "src\BellsimoDataAccessLayer\BellsimoDataAccessLayer.csproj", "{02E5CB24-0E82-46F8-8EC0-0B403F277C67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BelissimoBusinessLogicLayer", "BusinessLogicLayer\BelissimoBusinessLogicLayer.csproj", "{70F1B3BE-93DF-4766-BE3E-6E0B4DE9669E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BelissimoDTOs", "BelissimoDTOs\BelissimoDTOs.csproj", "{AEF80E25-D5AB-4DAF-9B76-90BADB89E095}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +27,14 @@ Global
 		{02E5CB24-0E82-46F8-8EC0-0B403F277C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02E5CB24-0E82-46F8-8EC0-0B403F277C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02E5CB24-0E82-46F8-8EC0-0B403F277C67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70F1B3BE-93DF-4766-BE3E-6E0B4DE9669E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70F1B3BE-93DF-4766-BE3E-6E0B4DE9669E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70F1B3BE-93DF-4766-BE3E-6E0B4DE9669E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70F1B3BE-93DF-4766-BE3E-6E0B4DE9669E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEF80E25-D5AB-4DAF-9B76-90BADB89E095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF80E25-D5AB-4DAF-9B76-90BADB89E095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF80E25-D5AB-4DAF-9B76-90BADB89E095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF80E25-D5AB-4DAF-9B76-90BADB89E095}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +42,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{73768D19-58A7-42B3-B6F8-770348C3C278} = {39EBE662-FD1C-447D-8D0D-7F9C3C101F6F}
 		{02E5CB24-0E82-46F8-8EC0-0B403F277C67} = {39EBE662-FD1C-447D-8D0D-7F9C3C101F6F}
+		{70F1B3BE-93DF-4766-BE3E-6E0B4DE9669E} = {39EBE662-FD1C-447D-8D0D-7F9C3C101F6F}
+		{AEF80E25-D5AB-4DAF-9B76-90BADB89E095} = {39EBE662-FD1C-447D-8D0D-7F9C3C101F6F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A1FFD16E-8B82-44B3-8ADE-9E752F92F4BD}
